@@ -5,7 +5,7 @@ command({
   fromMe: true,
   desc: "Bot Alive",
   dontAddCommandList: true,
-  type: "misc",
+  type: "search",
 
 },
 async (message, match, m) => {
