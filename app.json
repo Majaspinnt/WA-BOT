@@ -51,6 +51,11 @@
       "required": "false",
       "value": "𝞓𝙁𝞘𝙔𝞓"
     },
+    "ALIVE": {
+      "description": "Alive Message",
+      "required": "false",
+      "value": "```Hey Bro I'm Alive```"
+    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
