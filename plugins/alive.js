@@ -2,8 +2,8 @@ const { command, isPrivate, getJson } = require('../lib')
 
 command({
   pattern: "alive",
-  fromMe: IsPrivate,
-  desc: "mention reply",
+  fromMe: isPrivate,
+  desc: "Alive reply",
   type: "search",
 },
 async (message, match, m) => {
