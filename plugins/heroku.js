@@ -220,7 +220,7 @@ command(
       if (commits.total === 0) {
         return await message.sendMessage("_Already on latest version_");
       } else {
-        await message.reply("_Updating_");
+        await message.reply("*Update Started*");
 
         try {
           var app = await heroku.get("/apps/" + Config.HEROKU_APP_NAME);
@@ -244,13 +244,13 @@ command(
         }
         await git.push("heroku", Config.BRANCH);
 
-        await message.sendMessage("UPDATED");
+        await message.sendMessage("* Successfully updated*");
       }
     }
     await git.fetch();
     var commits = await git.log([Config.BRANCH + "..origin/" + Config.BRANCH]);
     if (commits.total === 0) {
-      await message.sendMessage("_Already on latest version_");
+      await message.sendMessage("*Already Updated* ");
     } else {
       var availupdate = "*ᴜᴘᴅᴀᴛᴇs ᴀᴠᴀɪʟᴀʙʟᴇ* \n\n";
       commits["all"].map((commit, num) => {
@@ -259,12 +259,6 @@ command(
       return await message.client.sendMessage(message.jid, {
         text: availupdate,
         footer: tiny("click here to update"),
-        buttons: [
-          {
-            buttonId: `${prefix}update now`,
-            buttonText: { displayText: tiny("update now") },
-          },
-        ],
       });
     }
   }
