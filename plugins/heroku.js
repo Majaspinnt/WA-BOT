@@ -244,7 +244,7 @@ command(
         }
         await git.push("heroku", Config.BRANCH);
 
-        await message.sendMessage("* Successfully updated*");
+        await message.sendMessage("*Successfully updated*");
       }
     }
     await git.fetch();
