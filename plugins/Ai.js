@@ -6,7 +6,7 @@ const {command, isPrivate, getJson} = require("../lib");
 command({
   pattern: 'ai ?(.*)',	
   fromMe: isPrivate,
-  type: 'misc',
+  type: 'search',
 }, 
 async (message, match) => {
 if (!match) return await message.sendMessage("_Example:Ai Who is afiya-md_");
