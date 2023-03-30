@@ -56,11 +56,6 @@
       "required": "false",
       "value": "```Hey Bro I'm alive```"
     },
-    "THEME": {
-      "description": "Theme name",
-      "required": "false",
-      "value": "𝑨𝒇𝒊𝒚𝒂"
-    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
