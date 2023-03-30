@@ -6,17 +6,6 @@ you may not use this file except in compliance with the License.
 Afiya-md
 */
 
-command({
-  pattern: "alive",
-  fromMe: isPrivate,
-  desc: "alive msg",
-  type: "user",
-
-},
-async (message, match, m) => {
-message.sendMessage(config.ALIVE) 
-})
-
 command(
   {
     pattern: "pp",
