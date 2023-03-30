@@ -29,6 +29,7 @@ module.exports = {
   BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
   FOOTER:   process.env.FOOTER || "𝑨𝒇𝒊𝒚𝒂",
   ALIVE: process.env.ALIVE || "```I am Alive```",
+  THEME:  process.env.THEME ||  "𝑨𝒇𝒊𝒚𝒂",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
