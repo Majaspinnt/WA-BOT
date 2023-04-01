@@ -132,6 +132,7 @@ command(
   },
   async (message, match) => {
     await message.reply("*Downloading your song...*");
+   await message.reply("*Uploading Your Song...*");
     match = match || message.reply_message.text;
     if (!match) return await message.reply("_Enter Song Name_");
     //fn
@@ -253,11 +254,11 @@ command(
     
     if (!match.includes("https://www.instagram.com"))
       return await message.reply("_Invalid URL_");
-       message.reply("*Downloading...*");
+   messages.reply("*Downloading*");   
     let response = await getJson(
-      `https://api-viper-x0.vercel.app/api/insta?url=${match}`
+      `https://inrl-web.onrender.com/api/insta?url=${match}`
     );
-    try { message.sendFromUrl(response.media.url); } catch { message.sendMessage("_Error!!_"); }
+    try { message.sendFromUrl(response.media.url); } catch { message.sendMessage("ᴏᴏᴘs !! sᴏᴍᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ 🥴"); }
   }
 );
 
