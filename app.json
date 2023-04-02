@@ -56,6 +56,11 @@
       "required": "false",
       "value": "```Hey Bro I'm alive```"
     },
+     "OWNER_NUMBER": {
+      "description": "Owner Number",
+      "required": "false",
+      "value": "917902655741"
+    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
