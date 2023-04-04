@@ -19,3 +19,14 @@ async (conn, match) => {
 	var end = new Date().getTime();
 	await conn.reply('*Pong!*\n```' + (end - start) + 'ms```');
 	});
+
+command({
+  pattern: "alive",
+  fromMe: isPrivate,
+  desc: "Alive Msg",
+  type: "misc",
+
+},
+async (message, match, m) => {
+message.sendMessage(config.ALIVE) 
+})
