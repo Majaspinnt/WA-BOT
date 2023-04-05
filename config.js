@@ -11,25 +11,17 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "RE03Mnp_AFIYA_hR1g=",
+  SESSION_ID:process.env.SESSION_ID || "inrl~7pL1J8UGHftwhE/P63aHSiUKkLAKaF+/ZJYnAg",
   LANG: process.env.LANG || "EN",
-  HANDLERS:
-    process.env.HANDLER === "false" || process.env.PREFIX === "null"
-      ? "^"
-      : "^",
+  HANDLERS: process.env.PREFIX || '[.]',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
-  PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  WELCOME_MSG:
-    process.env.WELCOME_MSG ||
-    "Hi @user Welcome to @gname",
-  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
-  AUTHOR: process.env.AUTHOR || "© 𝚂𝚄𝙷𝙰𝙸𝙳",
-  OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
-  BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  FOOTER:   process.env.FOOTER || "𝑨𝒇𝒊𝒚𝒂",
-  ALIVE: process.env.ALIVE || "```I am Alive```",
-  WORK_TYPE: process.env.WORK_TYPE || "private",
+  PACKNAME: process.env.PACKNAME || "𝑨𝑭𝑰𝒀𝑨-𝑴𝑫",
+  AUTHOR: process.env.AUTHOR || "© 𝑺𝑼𝑯𝑨𝑰𝑫",
+  OWNER_NAME: process.env.OWNER_NAME || "𝑺𝑼𝑯𝑨𝑰𝑫",
+  BOT_NAME: process.env.BOT_NAME || "𝑨𝑭𝑰𝒀𝑨-𝑴𝑫",
+  FOOTER: process.env.FOOTER || "𝑨𝑭𝑰𝒀𝑨",
+  ALIVE: process.env.ALIVE || "Hey I'm Alive",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
@@ -48,7 +40,8 @@ module.exports = {
           },
           logging: false,
         }),
+  SUDO: process.env.SUDO || "917902655741",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  SUDO: process.env.SUDO || "917902655741",
+  WORK_TYPE: process.env.WORK_TYPE || "private",
 };
