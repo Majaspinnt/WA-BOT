@@ -1,6 +1,6 @@
 {
   "name": "AFIYA-MD",
-  "description": "Afiya Multi Device whatsappbot",
+  "description": "Afiya Multi Device whatsapp bot",
   "logo": "https://i.imgur.com/lfcMtYg.jpeg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/SUHAID-BRO/AFIYA-MD",
@@ -56,11 +56,6 @@
       "required": "false",
       "value": "```Hey Bro I'm alive```"
      },
-    "HANDLER": {
-      "description": "prefix",
-      "required": "false",
-      "value": "."
-    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
