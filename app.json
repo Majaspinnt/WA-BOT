@@ -55,6 +55,11 @@
       "description": "Alive Message",
       "required": "false",
       "value": "```Hey Bro I'm alive```"
+     },
+    "HANDLER": {
+      "description": "prefix",
+      "required": "false",
+      "value": "."
     },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
