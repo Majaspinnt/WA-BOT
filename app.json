@@ -56,11 +56,6 @@
       "required": "false",
       "value": "```Hey Bro I'm alive```"
     },
-    "HANDLER": {
-      "description": "Prefix",
-      "required": "false",
-      "value": "[.]"
-    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
