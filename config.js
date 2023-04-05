@@ -13,7 +13,10 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   SESSION_ID:process.env.SESSION_ID || "RE03Mnp_AFIYA_hR1g=",
   LANG: process.env.LANG || "EN",
-  HANDLERS: process.env.PREFIX || '[.]',
+  HANDLERS:
+    process.env.HANDLER === "false" || process.env.PREFIX === "null"
+      ? "^"
+      : "^",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
