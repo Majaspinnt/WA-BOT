@@ -9,7 +9,7 @@ Afiya-md
 command(
 	{
 		pattern: 'ping',
-		isOwner: false,
+		isOwner: true,
 		desc: "Measures your ping.", 
 		type: 'misc'
 },
