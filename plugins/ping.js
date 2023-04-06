@@ -1,17 +1,14 @@
 const { command ,isPrivate} = require("../lib/");
 
-/* Copyright (C) 2022 SUHAID-BRO.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Afiya-md
-*/
+/* Created by SUHAID-BRO ©2023
+Created for AFIYA-MD */
 
-command(
-	{
-		pattern: 'ping',
-		isOwner: true,
-		desc: "Measures your ping.", 
-		type: 'misc'
+command({
+  pattern: "ping",
+  fromMe: isPrivate,
+  desc: "Bot Speed",
+  type: "misc",
+
 },
 async (conn, match) => {
 	var start = new Date().getTime();
