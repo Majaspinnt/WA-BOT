@@ -2,7 +2,7 @@
   "name": "afiya-md",
   "version": "3.0.0",
   "description": "Afiya project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./bot.js",
+  "main": "./afiya.js",
   "type": "commonjs",
   "scripts": {
     "start": "pm2 start . --attach --name afiya-md"
