@@ -3,11 +3,11 @@ const {SUDO} = require('../config');
 var duration = 19998000
 
 var audios = `https://i.imgur.com/2nEwQLy.mp4,https://i.imgur.com/lDZOEHl.mp4,https://i.imgur.com/WxQbgOU.mp4,https://i.imgur.com/BVypaUc.mp4,https://i.imgur.com/L9Jnpt5.mp4,https://i.imgur.com/3Te73pm.mp4,https://i.imgur.com/gkzBe1X.mp4,https://i.imgur.com/aEpNAtl.mp4,https://i.imgur.com/JiuFyXy.mp4,https://i.imgur.com/jEVzyWS.mp4,https://i.imgur.com/1npmJY6.mp4`;
-var tit = "Diego";
-var art = "Hy";
-var logo = "https://i.imgur.com/bk3EKWZ.jpeg";
-const image = "https://i.imgur.com/bLNO98n.jpeg";
-const image_1 = "https://i.imgur.com/bk3EKWZ.jpeg";
+var tit = "Suhaid";
+var art = "afiya";
+var logo = "https://i.imgur.com/svdEe54.jpeg";
+const image = "https://i.imgur.com/ti5C4TO.jpeg";
+const image_1 = "https://i.imgur.com/svdEe54.jpeg";
 const {getAudioBufferFromLink,addInfo,jslbuffer} = require('abu-bot')
 const {readFileSync} = require('fs')
 const {command} = require('../lib/');
@@ -28,12 +28,12 @@ return message.client.sendMessage(message.jid, { audio: res,mimetype: 'audio/mp4
 			waveform: [00,99,00,99,00,99,00],
 			contextInfo: {
 			externalAdReply: {
-					title: "toxic cyber ",
-					body: "sᴏᴜɴᴅ : ▮▮▮▮▮▮▯▯▯",
+					title: "Aғɪʏᴀ-Bᴏᴛ-Mᴅ ",
+					body: "▶︎ •၊၊၊|။။၊|။|။|||။၊| 0:22",
 					mediaType: 2,
 					thumbnail: image2,
-					mediaUrl: 'https://www.instagram.com/diego',
-					sourceUrl: 'https://www.instagram.com/diego',
+					mediaUrl: 'https://www.instagram.com/______suhaid',
+					sourceUrl: 'https://www.instagram.com/______suhaid',
 					
 					}
 				}
