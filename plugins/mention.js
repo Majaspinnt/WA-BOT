@@ -25,7 +25,7 @@ if (audio) {
 try { var res = await addInfo('mention_msg.mp3',tit,art,'diego audio metadata',await jslbuffer(logo)) } catch(e) { return await message.sendMessage('Error on parsing audio \n'+e); }
 return message.client.sendMessage(message.jid, { audio: res,mimetype: 'audio/mp4',
 			ptt: true,
-			waveform: [10,88,10,100,10,88,10],
+			waveform: [50,150,80,0,80,150,50],
 			contextInfo: {
 			externalAdReply: {
 					title: "Aғɪʏᴀ-Bᴏᴛ-Mᴅ ",
