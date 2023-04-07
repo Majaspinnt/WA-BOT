@@ -12,7 +12,7 @@
 
 3. Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/SUHAID-BRO/AFIYA-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/5UHAID/WA-BOT' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 
