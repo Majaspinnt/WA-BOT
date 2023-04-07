@@ -2,7 +2,7 @@ const {SUDO} = require('../config');
 
 var duration = 19998000
 
-var audios = `https://i.imgur.com/2nEwQLy.mp4,https://i.imgur.com/lDZOEHl.mp4,https://i.imgur.com/WxQbgOU.mp4,https://i.imgur.com/BVypaUc.mp4,https://i.imgur.com/L9Jnpt5.mp4,https://i.imgur.com/3Te73pm.mp4,https://i.imgur.com/gkzBe1X.mp4,https://i.imgur.com/aEpNAtl.mp4,https://i.imgur.com/JiuFyXy.mp4,https://i.imgur.com/jEVzyWS.mp4,https://i.imgur.com/1npmJY6.mp4`;
+var audios = `https://i.imgur.com/2nEwQLy.mp4,https://i.imgur.com/EHdxCdH.mp4,https://i.imgur.com/bs54FTz.mp4,https://i.imgur.com/pStrWEm.mp4,https://i.imgur.com/u4YfWNA.mp4,https://i.imgur.com/xNU6Geg.mp4`;
 var tit = "Suhaid";
 var art = "afiya";
 var logo = "https://i.imgur.com/svdEe54.jpeg";
