@@ -103,10 +103,10 @@ command(
   },
   async (message, match) => {
     if (!match)
-      return await message.sendMessage(`_Example: .setvar SUDO:918113921898_`);
+      return await message.sendMessage(`_Example: Setvar SUDO:917560842435_`);
     const [key, value] = match.split(":");
     if (!key || !value)
-      return await message.sendMessage(`_Example: .setvar SUDO:918113921898_`);
+      return await message.sendMessage(`_Example: Setvar SUDO:917560842435_`);
     heroku
       .patch(baseURI + "/config-vars", {
         body: {
