@@ -9,12 +9,6 @@ const { secondsToDHMS } = require("../lib");
 const git = simpleGit();
 const exec = require("child_process").exec;
 
-/* Copyright (C) 2022 SUHAID-BRO.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Afiya-md
-*/
-
 command(
   {
     pattern: "restart",
@@ -103,10 +97,10 @@ command(
   },
   async (message, match) => {
     if (!match)
-      return await message.sendMessage(`_Example: Setvar SUDO:917560842435_`);
+      return await message.sendMessage(`_Example: .setvar SUDO:918113921898_`);
     const [key, value] = match.split(":");
     if (!key || !value)
-      return await message.sendMessage(`_Example: Setvar SUDO:917560842435_`);
+      return await message.sendMessage(`_Example: .setvar SUDO:918113921898_`);
     heroku
       .patch(baseURI + "/config-vars", {
         body: {
@@ -274,8 +268,7 @@ command(
   async (message) => {}
 );
 
-//Credits Mask-ser
-//created by mask ser for HERMIT_MD
+
 const { SUDO } = require("../config");
 const { Function } = require("../lib/");
 Function(
