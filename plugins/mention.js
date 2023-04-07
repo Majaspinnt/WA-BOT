@@ -2,7 +2,7 @@ const {SUDO} = require('../config');
 
 var duration = 19998000
 
-var audios = `https://i.imgur.com/RmP0vux.mp4`;
+var audios = `https://i.imgur.com/RmP0vux.mp4,https://i.imgur.com/uMYY7jB.mp4`;
 var tit = "Suhaid";
 var art = "afiya";
 var logo = "https://i.imgur.com/svdEe54.jpeg";
