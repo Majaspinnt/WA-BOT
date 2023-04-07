@@ -2,12 +2,12 @@ const {SUDO} = require('../config');
 
 var duration = 19998000
 
-var audios = `https://i.imgur.com/bs54FTz.mp4,https://i.imgur.com/pStrWEm.mp4,https://i.imgur.com/u4YfWNA.mp4,https://i.imgur.com/xNU6Geg.mp4,https://i.imgur.com/EHdxCdH.mp4`;
-var tit = "Suhaid";
-var art = "Adiya";
-var logo = "https://i.imgur.com/svdEe54.jpeg";
-const image = "https://i.imgur.com/ti5C4TO.jpeg";
-const image_1 = "https://i.imgur.com/svdEe54.jpeg";
+var audios = `https://i.imgur.com/2nEwQLy.mp4,https://i.imgur.com/lDZOEHl.mp4,https://i.imgur.com/WxQbgOU.mp4,https://i.imgur.com/BVypaUc.mp4,https://i.imgur.com/L9Jnpt5.mp4,https://i.imgur.com/3Te73pm.mp4,https://i.imgur.com/gkzBe1X.mp4,https://i.imgur.com/aEpNAtl.mp4,https://i.imgur.com/JiuFyXy.mp4,https://i.imgur.com/jEVzyWS.mp4,https://i.imgur.com/1npmJY6.mp4`;
+var tit = "Diego";
+var art = "Hy";
+var logo = "https://i.imgur.com/bk3EKWZ.jpeg";
+const image = "https://i.imgur.com/bLNO98n.jpeg";
+const image_1 = "https://i.imgur.com/bk3EKWZ.jpeg";
 const {getAudioBufferFromLink,addInfo,jslbuffer} = require('abu-bot')
 const {readFileSync} = require('fs')
 const {command} = require('../lib/');
@@ -25,15 +25,15 @@ if (audio) {
 try { var res = await addInfo('mention_msg.mp3',tit,art,'diego audio metadata',await jslbuffer(logo)) } catch(e) { return await message.sendMessage('Error on parsing audio \n'+e); }
 return message.client.sendMessage(message.jid, { audio: res,mimetype: 'audio/mp4',
 			ptt: true,
-			waveform: [10,99,00,100,00,99,10],
+			waveform: [00,99,00,99,00,99,00],
 			contextInfo: {
 			externalAdReply: {
-					title: "Aғɪʏᴀ-Bᴏᴛ-Mᴅ ",
-					body: "▶︎ •၊၊၊|။။၊|။|။|||။၊| 0:21",
+					title: "toxic cyber ",
+					body: "sᴏᴜɴᴅ : ▮▮▮▮▮▮▯▯▯",
 					mediaType: 2,
 					thumbnail: image2,
-					mediaUrl: 'https://www.instagram.com/______suhaid',
-					sourceUrl: 'https://www.instagram.com/______suhaid',
+					mediaUrl: 'https://www.instagram.com/diego',
+					sourceUrl: 'https://www.instagram.com/diego',
 					
 					}
 				}
