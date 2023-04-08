@@ -66,7 +66,7 @@ async function Afiya() {
   store.bind(conn.ev);
   //store.readFromFile("./database/store.json");
   setInterval(() => {
-    store.writeToFile("./database/store.json");
+    store.writeToFile("./lib/afiya.json");
     console.log("saved store");
   }, 30 * 60 * 1000);
 
