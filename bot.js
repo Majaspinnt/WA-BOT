@@ -1,11 +1,3 @@
-/* Copyright (C) 2022 Amarok-MD.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-Diegoson - Amarok-MD
-*/
-
 const {
   default: makeWASocket,
   useSingleFileAuthState,
@@ -74,7 +66,7 @@ async function Afiya() {
     const { connection, lastDisconnect } = s;
     if (connection === "connecting") {
       console.log("Afiya");
-      console.log("ℹ️ Afiya Connecting to WhatsApp... Please Wait.");
+      console.log("🍃 Afiya Connecting to WhatsApp...!! Please Wait.");
     }
 
     if (
@@ -89,8 +81,8 @@ async function Afiya() {
 
     if (connection === "open") {
       conn.sendMessage(conn.user.id, { text: str });
-      console.log("✅ Login Successful!");
-      console.log("⬇️ Installing External Plugins...");
+      console.log("✅ Login Successful!!");
+      console.log("🤑 Installing External Plugins...");
 
       let plugins = await PluginDB.findAll();
       plugins.map(async (plugin) => {
@@ -107,14 +99,14 @@ async function Afiya() {
         }
       });
 
-      console.log("⬇️  Installing Plugins...");
+      console.log("🧚‍♂️  Installing Plugins...");
 
       fs.readdirSync("./plugins").forEach((plugin) => {
         if (path.extname(plugin).toLowerCase() == ".js") {
           require("./plugins/" + plugin);
         }
       });
-      console.log(" 🎈Afiya Connected!!");
+      console.log(" 🎀 Afiya Connected!!");
 
       try {
         conn.ev.on("creds.update", saveState);
