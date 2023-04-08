@@ -1,1 +1,190 @@
-const _0x1d85c8=_0x5960;(function(_0x269488,_0x5ab505){const _0x3dfaef=_0x5960,_0x503f7c=_0x269488();while(!![]){try{const _0x1203cc=parseInt(_0x3dfaef(0xfa))/0x1*(-parseInt(_0x3dfaef(0xda))/0x2)+parseInt(_0x3dfaef(0xd7))/0x3*(parseInt(_0x3dfaef(0xe9))/0x4)+parseInt(_0x3dfaef(0x107))/0x5+parseInt(_0x3dfaef(0x101))/0x6+parseInt(_0x3dfaef(0x108))/0x7*(parseInt(_0x3dfaef(0xff))/0x8)+-parseInt(_0x3dfaef(0xf3))/0x9+parseInt(_0x3dfaef(0x105))/0xa;if(_0x1203cc===_0x5ab505)break;else _0x503f7c['push'](_0x503f7c['shift']());}catch(_0x147e60){_0x503f7c['push'](_0x503f7c['shift']());}}}(_0x5734,0x78a6b));function _0x5734(){const _0x5a5f78=['slice','photo','WORK_TYPE','bind','toLowerCase','group-participants.update','readdirSync','name','.js','sender','./plugins/','pino','forEach','writeFileSync','```AFIYA-MD\x20STARTED\x20\x0aVersion\x20:\x20','log','stack','\x0aWorktype:\x20','./session.json','connecting','map','SESSION_ID','defaultMaxListeners','version','silent','./lib/database/','./lib/Base','then','got','uncaughtException','imageMessage','dataValues','Syncing\x20Database','./lib/database/plugins','762jgabwc','length','split','874670WEwxky','user','sendMessage','SUDO','message','ℹ️\x20Afiya\x20Connecting\x20to\x20WhatsApp...\x20Please\x20Wait.','function','./media/session.json','body','store','./package.json','error','\x0a\x0a\x0a\x0a\x0a','close','@adiwajshing/baileys','232kQpwjr','extname','payload','join','url','includes','creds.update','test','parse','Afiya','7375329QGOQTD','EventEmitter','Desktop','findAll','prefix','existsSync','child','2mOqdjF','type','macOS','image','commands','24vhxyNw','pattern','1130292ujqVxl','statusCode','\x0aTotal\x20Plugins\x20:\x20','./lib/serialize','5861980IJbNmS','stringify','4669485YjdyFc','1085301fCcbBI','./lib/afiya.js','messages','🍃\x20Afiya\x20Connected!!','✅\x20Login\x20Successful!','./config','```','⬇️\x20Installing\x20External\x20Plugins...','Vesrion\x20:\x20','output'];_0x5734=function(){return _0x5a5f78;};return _0x5734();}function _0x5960(_0x1107ca,_0x456920){const _0x573419=_0x5734();return _0x5960=function(_0x596017,_0x16f83b){_0x596017=_0x596017-0xca;let _0x2b4e7c=_0x573419[_0x596017];return _0x2b4e7c;},_0x5960(_0x1107ca,_0x456920);}const {default:makeWASocket,useSingleFileAuthState,Browsers,makeInMemoryStore}=require(_0x1d85c8(0xe8)),fs=require('fs'),{serialize}=require(_0x1d85c8(0x104)),{Message,Image,Sticker}=require(_0x1d85c8(0xcf)),pino=require(_0x1d85c8(0x11d)),path=require('path'),events=require('./lib/event'),got=require(_0x1d85c8(0xd1)),config=require(_0x1d85c8(0x10d)),{PluginDB}=require(_0x1d85c8(0xd6)),Greetings=require('./lib/Greetings'),{MakeSession}=require('./lib/session'),store=makeInMemoryStore({'logger':pino()[_0x1d85c8(0xf9)]({'level':_0x1d85c8(0xcd),'stream':_0x1d85c8(0xe3)})});require('events')[_0x1d85c8(0xf4)][_0x1d85c8(0xcb)]=0x1f4;let str=_0x1d85c8(0x120)+require(_0x1d85c8(0xe4))[_0x1d85c8(0xcc)]+_0x1d85c8(0x103)+events[_0x1d85c8(0xfe)][_0x1d85c8(0xd8)]+_0x1d85c8(0x123)+config[_0x1d85c8(0x114)]+_0x1d85c8(0x10e);!fs[_0x1d85c8(0xf8)](_0x1d85c8(0xe1))&&MakeSession(config[_0x1d85c8(0xca)],_0x1d85c8(0x124))[_0x1d85c8(0xd0)](console[_0x1d85c8(0x121)](_0x1d85c8(0x110)+require(_0x1d85c8(0xe4))[_0x1d85c8(0xcc)]));fs['readdirSync'](_0x1d85c8(0xce))[_0x1d85c8(0x11e)](_0x2d1f7e=>{const _0x37f819=_0x1d85c8;path[_0x37f819(0xea)](_0x2d1f7e)['toLowerCase']()==_0x37f819(0x11a)&&require(_0x37f819(0xce)+_0x2d1f7e);});async function Amarok(){const _0xec0fe8=_0x1d85c8;console[_0xec0fe8(0x121)](_0xec0fe8(0xd5)),await config['DATABASE']['sync']();const {state:_0x20f726,saveState:_0x27e5ca}=useSingleFileAuthState(_0xec0fe8(0x124),pino({'level':_0xec0fe8(0xcd)}));let _0x408877=makeWASocket({'logger':pino({'level':_0xec0fe8(0xcd)}),'auth':_0x20f726,'printQRInTerminal':!![],'browser':Browsers[_0xec0fe8(0xfc)](_0xec0fe8(0xf5)),'downloadHistory':![],'syncFullHistory':![]});store[_0xec0fe8(0x115)](_0x408877['ev']),setInterval(()=>{const _0x456fba=_0xec0fe8;store['writeToFile'](_0x456fba(0x109)),console[_0x456fba(0x121)]('saved\x20store');},0x1e*0x3c*0x3e8),_0x408877['ev']['on']('connection.update',async _0x216bf7=>{const _0xfd344f=_0xec0fe8,{connection:_0x3140dd,lastDisconnect:_0x5176a7}=_0x216bf7;_0x3140dd===_0xfd344f(0x125)&&(console['log'](_0xfd344f(0xf2)),console[_0xfd344f(0x121)](_0xfd344f(0xdf)));_0x3140dd===_0xfd344f(0xe7)&&_0x5176a7&&_0x5176a7['error']&&_0x5176a7[_0xfd344f(0xe5)][_0xfd344f(0x111)][_0xfd344f(0x102)]!=0x191&&(console[_0xfd344f(0x121)](_0x5176a7['error'][_0xfd344f(0x111)][_0xfd344f(0xeb)]),Afiya());if(_0x3140dd==='open'){_0x408877[_0xfd344f(0xdc)](_0x408877['user']['id'],{'text':str}),console[_0xfd344f(0x121)](_0xfd344f(0x10c)),console[_0xfd344f(0x121)](_0xfd344f(0x10f));let _0x109319=await PluginDB[_0xfd344f(0xf6)]();_0x109319[_0xfd344f(0x126)](async _0x3428ca=>{const _0x2194cc=_0xfd344f;if(!fs[_0x2194cc(0xf8)]('./plugins/'+_0x3428ca['dataValues'][_0x2194cc(0x119)]+'.js')){console['log'](_0x3428ca[_0x2194cc(0xd4)][_0x2194cc(0x119)]);var _0x371d85=await got(_0x3428ca[_0x2194cc(0xd4)][_0x2194cc(0xed)]);_0x371d85['statusCode']==0xc8&&(fs[_0x2194cc(0x11f)](_0x2194cc(0x11c)+_0x3428ca['dataValues'][_0x2194cc(0x119)]+'.js',_0x371d85[_0x2194cc(0xe2)]),require(_0x2194cc(0x11c)+_0x3428ca['dataValues']['name']+_0x2194cc(0x11a)));}}),console[_0xfd344f(0x121)]('🤤PLUGIN\x20INSTALLING...'),fs[_0xfd344f(0x118)]('./plugins')[_0xfd344f(0x11e)](_0x42abdc=>{const _0x533db9=_0xfd344f;path[_0x533db9(0xea)](_0x42abdc)[_0x533db9(0x116)]()==_0x533db9(0x11a)&&require(_0x533db9(0x11c)+_0x42abdc);}),console[_0xfd344f(0x121)](_0xfd344f(0x10b));try{_0x408877['ev']['on'](_0xfd344f(0xef),_0x27e5ca),_0x408877['ev']['on'](_0xfd344f(0x117),async _0x381ac4=>{Greetings(_0x381ac4,_0x408877);}),_0x408877['ev']['on']('messages.upsert',async _0x1a68ef=>{const _0xe2e3cf=_0xfd344f;if(_0x1a68ef['type']!=='notify')return;let _0x14c215=_0x1a68ef[_0xe2e3cf(0x10a)][0x0],_0x5b9f58=await serialize(JSON[_0xe2e3cf(0xf1)](JSON[_0xe2e3cf(0x106)](_0x14c215)),_0x408877);if(!_0x5b9f58[_0xe2e3cf(0xde)])return;let _0xb0c153=_0x5b9f58[_0xe2e3cf(0xe2)];if(_0xb0c153)console[_0xe2e3cf(0x121)](_0xb0c153);events[_0xe2e3cf(0xfe)][_0xe2e3cf(0x126)](async _0x5e61d4=>{const _0x2f8285=_0xe2e3cf;if(_0x5e61d4['fromMe']&&!config[_0x2f8285(0xdd)][_0x2f8285(0xd9)](',')[_0x2f8285(0xee)](_0x5b9f58[_0x2f8285(0x11b)][_0x2f8285(0xd9)]('@')[0x0]||!_0x5b9f58['isSelf']))return;let _0x15fdf1;try{_0x15fdf1=_0xb0c153[_0x2f8285(0xd9)]('\x20')[0x0];}catch{_0x15fdf1=_0xb0c153;}if(_0xb0c153){if(_0x5e61d4[_0x2f8285(0x100)]&&_0x5e61d4[_0x2f8285(0x100)][_0x2f8285(0xf0)](_0x15fdf1['toLowerCase']())){var _0xa23762=_0xb0c153['trim']()[_0x2f8285(0xd9)](/ +/)[_0x2f8285(0x112)](0x1)[_0x2f8285(0xec)]('\x20');whats=new Message(_0x408877,_0x5b9f58,_0x14c215),_0x5e61d4[_0x2f8285(0xe0)](whats,_0xa23762,_0x5b9f58,_0x408877);}else{if(_0xb0c153&&_0x5e61d4['on']==='text')_0x5b9f58[_0x2f8285(0xf7)]=',',whats=new Message(_0x408877,_0x5b9f58,_0x14c215),_0x5e61d4[_0x2f8285(0xe0)](whats,_0xb0c153,_0x5b9f58,_0x408877,_0x1a68ef);else{if((_0x5e61d4['on']===_0x2f8285(0xfd)||_0x5e61d4['on']===_0x2f8285(0x113))&&_0x5b9f58[_0x2f8285(0xfb)]===_0x2f8285(0xd3))whats=new Image(_0x408877,_0x5b9f58,_0x14c215),_0x5e61d4[_0x2f8285(0xe0)](whats,_0xb0c153,_0x5b9f58,_0x408877,_0x1a68ef,_0x14c215);else _0x5e61d4['on']==='sticker'&&_0x5b9f58[_0x2f8285(0xfb)]==='stickerMessage'&&(whats=new Sticker(_0x408877,_0x5b9f58,_0x14c215),_0x5e61d4[_0x2f8285(0xe0)](whats,_0x5b9f58,_0x408877,_0x1a68ef,_0x14c215));}}}});});}catch(_0x1d3ebf){console[_0xfd344f(0x121)](_0x1d3ebf[_0xfd344f(0x122)]+_0xfd344f(0xe6)+JSON[_0xfd344f(0x106)](msg));}}}),process['on'](_0xec0fe8(0xd2),_0x529307=>{const _0x4325db=_0xec0fe8;let _0x299a4a=_0x529307[_0x4325db(0xde)];_0x408877['sendMessage'](_0x408877[_0x4325db(0xdb)]['id'],{'text':_0x299a4a}),console[_0x4325db(0x121)](_0x529307);});}setTimeout(()=>{Afiya();},0xbb8);
+/* Copyright (C) 2022 Amarok-MD.
+
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+
+Diegoson - Amarok-MD
+*/
+
+const {
+  default: makeWASocket,
+  useSingleFileAuthState,
+  Browsers,
+  makeInMemoryStore,
+} = require("@adiwajshing/baileys");
+const fs = require("fs");
+const { serialize } = require("./lib/serialize");
+const { Message, Image, Sticker } = require("./lib/Base");
+const pino = require("pino");
+const path = require("path");
+const events = require("./lib/event");
+const got = require("got");
+const config = require("./config");
+const { PluginDB } = require("./lib/database/plugins");
+const Greetings = require("./lib/Greetings");
+const { MakeSession } = require("./lib/session");
+const store = makeInMemoryStore({
+  logger: pino().child({ level: "silent", stream: "store" }),
+});
+
+require("events").EventEmitter.defaultMaxListeners = 500;
+
+let str = `\`\`\`AFIYA STARTED \nversion : ${
+        require("./package.json").version
+      }\nTotal Plugins : ${events.commands.length}\nWorktype: ${
+        config.WORK_TYPE
+      }\`\`\``;
+
+if (!fs.existsSync("./media/session.json")) {
+  MakeSession(config.SESSION_ID, "./session.json").then(
+    console.log("Vesrion : " + require("./package.json").version)
+  );
+}
+fs.readdirSync("./lib/database/").forEach((plugin) => {
+  if (path.extname(plugin).toLowerCase() == ".js") {
+    require("./lib/database/" + plugin);
+  }
+});
+
+async function Afiya() {
+  console.log("Syncing Database");
+  await config.DATABASE.sync();
+
+  const { state, saveState } = useSingleFileAuthState(
+    "./session.json",
+    pino({ level: "silent" })
+  );
+  let conn = makeWASocket({
+    logger: pino({ level: "silent" }),
+    auth: state,
+    printQRInTerminal: true,
+
+    browser: Browsers.macOS("Desktop"),
+    downloadHistory: false,
+    syncFullHistory: false,
+  });
+  store.bind(conn.ev);
+  //store.readFromFile("./database/store.json");
+  setInterval(() => {
+    store.writeToFile("./database/store.json");
+    console.log("saved store");
+  }, 30 * 60 * 1000);
+
+  conn.ev.on("connection.update", async (s) => {
+    const { connection, lastDisconnect } = s;
+    if (connection === "connecting") {
+      console.log("Afiya");
+      console.log("ℹ️ Afiya Connecting to WhatsApp... Please Wait.");
+    }
+
+    if (
+      connection === "close" &&
+      lastDisconnect &&
+      lastDisconnect.error &&
+      lastDisconnect.error.output.statusCode != 401
+    ) {
+      console.log(lastDisconnect.error.output.payload);
+      Afiya();
+    }
+
+    if (connection === "open") {
+      conn.sendMessage(conn.user.id, { text: str });
+      console.log("✅ Login Successful!");
+      console.log("⬇️ Installing External Plugins...");
+
+      let plugins = await PluginDB.findAll();
+      plugins.map(async (plugin) => {
+        if (!fs.existsSync("./plugins/" + plugin.dataValues.name + ".js")) {
+          console.log(plugin.dataValues.name);
+          var response = await got(plugin.dataValues.url);
+          if (response.statusCode == 200) {
+            fs.writeFileSync(
+              "./plugins/" + plugin.dataValues.name + ".js",
+              response.body
+            );
+            require("./plugins/" + plugin.dataValues.name + ".js");
+          }
+        }
+      });
+
+      console.log("⬇️  Installing Plugins...");
+
+      fs.readdirSync("./plugins").forEach((plugin) => {
+        if (path.extname(plugin).toLowerCase() == ".js") {
+          require("./plugins/" + plugin);
+        }
+      });
+      console.log(" 🎈Afiya Connected!!");
+
+      try {
+        conn.ev.on("creds.update", saveState);
+
+        conn.ev.on("group-participants.update", async (data) => {
+          Greetings(data, conn);
+        });
+        conn.ev.on("messages.upsert", async (m) => {
+          if (m.type !== "notify") return;
+          let ms = m.messages[0];
+          let msg = await serialize(JSON.parse(JSON.stringify(ms)), conn);
+          if (!msg.message) return;
+          let text_msg = msg.body;
+          if (text_msg) console.log(text_msg);
+
+          events.commands.map(async (command) => {
+            if (
+              command.fromMe &&
+              !config.SUDO.split(",").includes(
+                msg.sender.split("@")[0] || !msg.isSelf
+              )
+            )
+              return;
+            let comman;
+
+            try {
+              comman = text_msg.split(" ")[0];
+            } catch {
+              comman = text_msg;
+            }
+            if (text_msg)
+              if (
+                command.pattern &&
+                command.pattern.test(comman.toLowerCase())
+              ) {
+                var match = text_msg.trim().split(/ +/).slice(1).join(" ");
+                whats = new Message(conn, msg, ms);
+
+                command.function(whats, match, msg, conn);
+              } else if (text_msg && command.on === "text") {
+               
+                msg.prefix = ','
+                whats = new Message(conn, msg, ms);
+                command.function(whats, text_msg, msg, conn, m);
+              } else if (
+                (command.on === "image" || command.on === "photo") &&
+                msg.type === "imageMessage"
+              ) {
+                whats = new Image(conn, msg, ms);
+                command.function(whats, text_msg, msg, conn, m, ms);
+              } else if (
+                command.on === "sticker" &&
+                msg.type === "stickerMessage"
+              ) {
+                whats = new Sticker(conn, msg, ms);
+                command.function(whats, msg, conn, m, ms);
+              }
+          });
+        });
+      } catch (e) {
+        console.log(e.stack + "\n\n\n\n\n" + JSON.stringify(msg));
+      }
+    }
+  });
+  process.on("uncaughtException", (err) => {
+    let error = err.message;
+     conn.sendMessage(conn.user.id, { text: error });
+    console.log(err);
+  });
+}
+setTimeout(() => {
+  Afiya();
+}, 3000);
