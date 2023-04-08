@@ -40,7 +40,7 @@ command
 ┗––––––––––✦
 ❏═┅═━–〈 *ɪ ɴ ғ ᴏ*
 ┊• *User*: ${message.pushName}
-┊• *Mode*: ${MODE}
+┊• *Mode*: ${WORK_TYPE}
 ┊• *Platform*: Heroku
 ┊• *Type*:Node.Js
 ┊• *Uptime*: ${clockString(uptime())} 
